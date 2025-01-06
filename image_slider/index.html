@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Character Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="anime-slider-container">
+    <div class="anime-slider">
+      <div class="anime-slide" style="background-image: url('anime1.jpg');">
+        <div class="anime-caption">
+          <h2>Naruto Uzumaki</h2>
+          <p>"Believe it!"</p>
+        </div>
+      </div>
+      <div class="anime-slide" style="background-image: url('anime2.jpg');">
+        <div class="anime-caption">
+          <h2>Monkey D. Luffy</h2>
+          <p>"I’m going to become the Pirate King!"</p>
+        </div>
+      </div>
+      <div class="anime-slide" style="background-image: url('anime3.jpg');">
+        <div class="anime-caption">
+          <h2>Isagi Yoichi</h2>
+          <p>"The field is my stage, and my vision will lead the team to victory!"</p>
+        </div>
+      </div>      
+    </div>
+    <div class="anime-navigation">
+      <button class="anime-prev" onclick="changeAnimeSlide(-1)">&#10094;</button>
+      <button class="anime-next" onclick="changeAnimeSlide(1)">&#10095;</button>
+    </div>
+    <div class="anime-thumbnails">
+      <img src="anime1.jpg" alt="Naruto Thumbnail" onclick="goToAnimeSlide(0)">
+      <img src="anime2.jpg" alt="Luffy Thumbnail" onclick="goToAnimeSlide(1)">
+      <img src="anime3.jpg" alt="Sailor Moon Thumbnail" onclick="goToAnimeSlide(2)">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
