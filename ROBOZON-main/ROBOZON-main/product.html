@@ -1,0 +1,77 @@
+<!-- product.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    
+    <!-- Choose one version of Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/> -->
+
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo.png" alt="LOGO"></a>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="product.html">Product Page</a></li>
+              <li><a href="shopcart.html">Shopping Cart</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Product list -->
+    <div class="container">
+
+      <div class="title_and_search">
+         <h3 class="title"> Robotic Components </h3>
+         <!-- Search Bar start -->
+         <div class="search-bar">
+            <!-- Dropdown start -->
+            <div class="dropdown">
+              <div id="drop-text" class="dropdown-text">
+                <span id="span">Everything</span>
+                <!-- Correct Font Awesome icon class -->
+                <i id="icon" class="fas fa-chevron-down"></i>
+              </div>
+              <ul id="list" class="dropdown-list">
+                <li class="dropdown-list-item">Everything</li>
+                <li class="dropdown-list-item">Controller</li>
+                <li class="dropdown-list-item">Electronics</li>
+                <li class="dropdown-list-item">Motor</li>
+                <li class="dropdown-list-item">Sensors</li>
+                <li class="dropdown-list-item">Transceivers</li>               
+              </ul>
+            </div>
+            <!-- Dropdown ends -->
+
+            <!-- Search box input start -->
+            <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search anything..." />
+            <!-- Correct Font Awesome icon class -->
+            <i class="fas fa-search"></i>
+            </div>
+            <!-- Search box input ends -->
+         </div>
+         <!-- Search Bar ends -->
+      </div>
+      
+      <div class="products-container"></div>      <!-- Products will be listed dynamically -->
+      <div class="products-preview"></div>        <!-- Products preview will be  dynamic -->
+    </div>
+
+    <script src="./js/product.js"></script>
+    <script src="./js/searchbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+// list of products
+const products = [
+    {
+        id: 1,
+        name: "Controller and Driver",
+        img: '../img/components/controller_and_driver01.png',
+        price: 49.99,
+        description: "A versatile controller and driver suitable for various electronic projects. It provides precise control and efficient power management.",
+        category: "Electronics"
+    },
+    {
+        id: 2,
+        name: "Controller and Driver",
+        img: '../img/components/controller_and_driver02.png',
+        price: 59.99,
+        description: "An advanced controller and driver with built-in programming capabilities. It offers enhanced performance and compatibility.",
+        category: "Electronics"
+    },
+    {
+        id: 3,
+        name: "IR Transceivers",
+        img: '../img/components/ir_transceivers.png',
+        price: 14.99,
+        description: "Infrared transceivers for wireless communication applications. They ensure reliable data transmission over short distances.",
+        category: "Transceivers"
+    },
+    {
+        id: 4,
+        name: "RF Transceivers",
+        img: '../img/components/rf_transceivers.png',
+        price: 14.99,
+        description: "Infrared transceivers for wireless communication applications. They ensure reliable data transmission over short distances.",
+        category: "Transceivers"
+    },
+    {
+        id: 5,
+        name: "Micro Controller",
+        img: '../img/components/microcontroller01.png',
+        price: 19.99,
+        description: "A compact microcontroller with embedded memory and processing capabilities. Ideal for building embedded systems and IoT devices.",
+        category: "Controller"
+    },
+    {
+        id: 6,
+        name: "Micro Controller",
+        img: '../img/components/microcontroller02.png',
+        price: 24.99,
+        description: "A powerful microcontroller with advanced features such as hardware encryption and real-time operating system support.",
+        category: "Controller"
+    },
+    {
+        id: 7,
+        name: "Motor",
+        img: '../img/components/motor01.png',
+        price: 39.99,
+        description: "A high-torque DC motor suitable for robotics and automation projects. It provides smooth and precise motion control.",
+        category: "Motor"
+    },
+    {
+        id: 8,
+        name: "Power Supply",
+        img: '../img/components/power_supplies.png',
+        price: 29.99,
+        description: "A reliable power supply unit with adjustable voltage and current outputs. It ensures stable power delivery for electronic circuits.",
+        category: "Electronics"
+    },
+    {
+        id: 9,
+        name: "Proximity Sensor",
+        img: '../img/components/sensor_proximity.png',
+        price: 9.99,
+        description: "A proximity sensor capable of detecting objects within a certain range. It's commonly used in robotics and security systems.",
+        category: "Sensors"
+    },
+    {
+        id: 10,
+        name: "Contact Sensor",
+        img: '../img/components/sensor-contact.png',
+        price: 7.99,
+        description: "A contact sensor that detects physical contact or pressure. It's suitable for touch-sensitive applications and intrusion detection.",
+        category: "Sensors"
+    },
+    {
+        id: 11,
+        name: "Light Sensor",
+        img: '../img/components/sensor-light.png',
+        price: 5.99,
+        description: "A light sensor capable of detecting ambient light levels. It's useful for automatic lighting control and energy-saving applications.",
+        category: "Sensors"
+    },
+    {
+        id: 12,
+        name: "Sound Sensor",
+        img: '../img/components/sensor-sound.png',
+        price: 8.99,
+        description: "A sound sensor that detects sound levels in the environment. It's commonly used in audio recording devices and noise monitoring systems.",
+        category: "Sensors"
+    },
+    {
+        id: 13,
+        name: "Temperature Sensor",
+        img: '../img/components/sensor-temperature.png',
+        price: 6.99,
+        description: "A temperature sensor capable of measuring ambient temperature accurately. It's essential for temperature monitoring and control applications.",
+        category: "Sensors"
+    },
+];

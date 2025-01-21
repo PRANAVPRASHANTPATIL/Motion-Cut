@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo.png" alt="LOGO"></a>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="product.html">Product Page</a></li>
+              <li><a href="shopcart.html">Shopping Cart</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Product list -->
+    <div class="container">
+
+      <div class="title_and_search">
+         <h3 class="title"> Robotic Components </h3>
+         <!-- Search Bar start -->
+         <div class="search-bar">
+            <!-- Dropdown start -->
+            <div class="dropdown">
+            <div id="drop-text" class="dropdown-text">
+               <span id="span">Everything</span>
+               <i id="icon" class="fa-solid fa-chevron-down"></i>
+            </div>
+            <ul id="list" class="dropdown-list">
+               <li class="dropdown-list-item">Everything</li>
+               <li class="dropdown-list-item">Controller</li>
+               <li class="dropdown-list-item">Electronics</li>
+               <li class="dropdown-list-item">Motor</li>
+               <li class="dropdown-list-item">Sensors</li>
+               <li class="dropdown-list-item">Transceivers</li>               
+            </ul>
+            </div>
+            <!-- Dropdown ends -->
+
+            <!-- Search box input start -->
+            <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search anything..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- Search box input ends -->
+         </div>
+         <!-- Search Bar ends -->
+      </div>
+      
+      <div class="products-container"></div>      <!-- Products will be listed dynamically -->
+      
+
+
+      <div class="products-container">
+   
+         <div class="product" data-name="p-1">
+            <img src="./img/components/sensor-contact.png" alt="">
+            <h3>sensor</h3>
+            <div class="price">$2.00</div>
+         </div>
+   
+         <div class="product" data-name="p-2">
+            <img src="./img/components/sensor-sound.png" alt="">
+            <h3>sensor</h3>
+            <div class="price">$2.00</div>
+         </div>
+   
+         <div class="product" data-name="p-3">
+            <img src="./img/components/motor01.png" alt="">
+            <h3>motor</h3>
+            <div class="price">$2.00</div>
+         </div>
+   
+         <div class="product" data-name="p-4">
+            <img src="./img/components/power_supplies.png" alt="">
+            <h3>power supply</h3>
+            <div class="price">$2.00</div>
+         </div>
+   
+         <div class="product" data-name="p-5">
+          <img src="./img/components/sensor-temperature.png" alt="">
+          <h3>Temperature sensor</h3>
+            <div class="price">$2.00</div>
+         </div>
+   
+         <div class="product" data-name="p-6">
+            <img src="./img/components/microcontroller01.png" alt="">
+            <h3>microcontroller</h3>
+            <div class="price">$2.00</div>
+         </div>
+   
+      </div>
+
+
+
+   </div>
+   
+
+   <div class="products-preview">
+   
+      <div class="preview" data-target="p-1">
+         <i class="fas fa-times"></i>
+         <img src="./img/components/sensor-contact.png" alt="">
+            <h3>sensor</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">$2.00</div>
+         <div class="buttons">
+            <a href="#" class="buy">buy now</a>
+            <a href="#" class="cart">add to cart</a>
+         </div>
+      </div>
+   
+      <div class="preview" data-target="p-2">
+         <i class="fas fa-times"></i>
+         <img src="./img/components/sensor-sound.png" alt="">
+            <h3>sensor</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">$2.00</div>
+         <div class="buttons">
+            <a href="#" class="buy">buy now</a>
+            <a href="#" class="cart">add to cart</a>
+         </div>
+      </div>
+   
+      <div class="preview" data-target="p-3">
+         <i class="fas fa-times"></i>
+         <img src="./img/components/motor01.png" alt="">
+            <h3>motor</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">$2.00</div>
+         <div class="buttons">
+            <a href="#" class="buy">buy now</a>
+            <a href="#" class="cart">add to cart</a>
+         </div>
+      </div>
+   
+      <div class="preview" data-target="p-4">
+         <i class="fas fa-times"></i>
+         <img src="./img/components/power_supplies.png" alt="">
+            <h3>power supply</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">$2.00</div>
+         <div class="buttons">
+            <a href="#" class="buy">buy now</a>
+            <a href="#" class="cart">add to cart</a>
+         </div>
+      </div>
+   
+      <div class="preview" data-target="p-5">
+         <i class="fas fa-times"></i>
+         <img src="./img/components/sensor-temperature.png" alt="">
+          <h3>Temperature sensor</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">$2.00</div>
+         <div class="buttons">
+            <a href="#" class="buy">buy now</a>
+            <a href="#" class="cart">add to cart</a>
+         </div>
+      </div>
+   
+      <div class="preview" data-target="p-6">
+         <i class="fas fa-times"></i>
+         <img src="./img/components/microcontroller01.png" alt="">
+            <h3>microcontroller</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">$2.00</div>
+         <div class="buttons">
+            <a href="#" class="buy">buy now</a>
+            <a href="#" class="cart">add to cart</a>
+         </div>
+      </div>
+   
+   </div>
+
+
+
+    <script src="./js/trial.js"></script>
+    <script src="./js/searchbar.js"></script>
+    <!-- <script src="./js/items.js"></script> -->
+  </body>
+</html>
